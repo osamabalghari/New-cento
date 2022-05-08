@@ -1,0 +1,1 @@
+webpack is use to merge all javascript folders into one folder
