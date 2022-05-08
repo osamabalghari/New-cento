@@ -9,6 +9,10 @@
     "serve": "node dist/server.js",
     "heroku-prebuild": "cd frontend && npm install --dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamabalghari/New-cento.git"
+  },
   "author": "osama ahmed",
   "license": "ISC",
   "dependencies": {
