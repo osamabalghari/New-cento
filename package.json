@@ -1,7 +1,7 @@
 {
-  "name": "completeecommercewithmongo",
+  "name": "jsamazona",
   "version": "1.0.0",
-  "description": "",
+  "description": "JS AMAZONA",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
@@ -13,27 +13,32 @@
     "type": "git",
     "url": "git+https://github.com/osamabalghari/New-cento.git"
   },
-  "author": "osama ahmed",
+  "author": "",
   "license": "ISC",
+ 
   "dependencies": {
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "eslint": "^8.13.0",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.21",
-    "nodemon": "^2.0.4"
+    "multer": "^1.4.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
     "@babel/node": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
-    "@types/mongoose": "^5.11.97",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
   }
 }
